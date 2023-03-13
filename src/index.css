@@ -1,0 +1,79 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; 
+}
+
+.box{
+  background-color: rgb(233, 250, 252);
+  /* padding: 20px */
+  height: 80vh;
+  border-radius: 15px;
+  box-shadow: 5px 5px 25px -5px rgb(42, 9, 72);
+}
+h1{
+  text-align: center;
+  background-color:violet;
+  color: white;
+}
+input{
+  margin-left: 20px;
+  text-align: center;
+  height: 30px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  width: 60%;
+  border-bottom: 2px solid rgb(88, 187, 249);
+  outline: none;
+  font-weight: bold;
+}
+.add{
+  min-height: 40px;
+  height: auto;
+  width: 40px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: violet;
+  color: white;
+  font-size: 30px;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  box-shadow: 5px 5px 15px -5px black;
+}
+.add:hover{
+  background-color: green;
+  transform: scale(1.1,1.1);
+  cursor: pointer;
+}
+ol{
+  margin-top: 30px;
+}
+ol li{
+  padding-left:0px ;
+  text-align:left;
+  font-size: 20px;
+  font-weight: 500;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  color: rgb(11, 7, 2);
+  text-transform: capitalize;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.items{
+  display: flex;
+}
+.cross{
+  margin: 10px 10px;
+  border-radius: 50%;
+  background-color: violet;
+
+}
+.cross:hover{
+  background-color: rgb(248, 60, 60);
+  cursor: pointer;
+}
+
